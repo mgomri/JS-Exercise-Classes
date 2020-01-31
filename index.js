@@ -178,6 +178,7 @@ class Student extends Lambdasian {
     this.previousBackground = myObject.previousBackground;
     this.className = myObject.className;
     this.favSubjects = myObject.favSubjects;
+    this.grade = myObject.grade;
   }
   listSubjects(){
     return `loving ${this.favSubjects}`;
